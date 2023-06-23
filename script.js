@@ -1,7 +1,6 @@
 const months = ["January", "February", "March", "April", "May", "June", "July",
               "August", "September", "October", "November", "December"];
 
- window.location.reload();
 
 var notes_container=document.getElementById('notes-cnt');
 var modalBox=document.querySelector('#modal_box');
