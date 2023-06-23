@@ -94,7 +94,7 @@ function createNote()
     document.getElementById('description-box').value = '';
     count = count + 1;
     document.getElementById('closeModal').click();
-    location.reload();
+    window.location.reload();
   });
 
  
