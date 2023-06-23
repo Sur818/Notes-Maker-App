@@ -93,8 +93,8 @@ function createNote()
     document.getElementById('title-box').value = "";
     document.getElementById('description-box').value = '';
     count = count + 1;
-    document.getElementById('closeModal').click();
     window.location.reload();
+    document.getElementById('closeModal').click();
   });
 
  
